@@ -51,6 +51,29 @@
             font-size: 0.9rem;
             color: #666;
         }
+
+        #cartas, #playlist {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 3rem; /* Ajuste para mover mais para baixo */
+        }
+
+        #cartas h2, #playlist h2 {
+            margin-bottom: 1rem;
+        }
+
+        #cartas .cartas p, #playlist .playlist ul {
+            max-width: 600px; /* Limita a largura para centralizar melhor */
+            margin: 0.5rem 0;
+        }
+
+        #playlist .playlist ul {
+            list-style: none;
+            padding: 0;
+        }
     </style>
 </head>
 
